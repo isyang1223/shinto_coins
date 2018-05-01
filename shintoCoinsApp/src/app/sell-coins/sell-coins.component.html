@@ -1,0 +1,6 @@
+<h1>Sell ShintoCoins</h1>
+
+<p>Current ShintoCoins Value: ${{ coinValue }}</p>
+<p>Number of ShintoCoins Owned: {{ ownedCoins }}</p>
+<input #numberOfCoins type="number" name="number">
+<button (click)="sell(numberOfCoins.value)">Sell</button>
